@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5808B63F2C707C0500A3EB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B63E2C707C0500A3EB66 /* AppDelegate.swift */; };
+		5808B6412C707C0500A3EB66 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6402C707C0500A3EB66 /* GameViewController.swift */; };
+		5808B6442C707C0500A3EB66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6432C707C0500A3EB66 /* Base */; };
+		5808B6472C707C0500A3EB66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6462C707C0500A3EB66 /* Base */; };
+		5808B64F2C707C0500A3EB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B64E2C707C0500A3EB66 /* AppDelegate.swift */; };
+		5808B6512C707C0600A3EB66 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6502C707C0600A3EB66 /* GameViewController.swift */; };
+		5808B6542C707C0600A3EB66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6532C707C0600A3EB66 /* Base */; };
+		5808B6572C707C0600A3EB66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6562C707C0600A3EB66 /* Base */; };
+		5808B65F2C707C0600A3EB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B65E2C707C0600A3EB66 /* AppDelegate.swift */; };
+		5808B6612C707C0600A3EB66 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6602C707C0600A3EB66 /* GameViewController.swift */; };
+		5808B6642C707C0600A3EB66 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6632C707C0600A3EB66 /* Base */; };
+		5808B6662C707C0600A3EB66 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6332C707C0300A3EB66 /* Actions.sks */; };
+		5808B6672C707C0600A3EB66 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6332C707C0300A3EB66 /* Actions.sks */; };
+		5808B6682C707C0600A3EB66 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6332C707C0300A3EB66 /* Actions.sks */; };
+		5808B6692C707C0600A3EB66 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6342C707C0300A3EB66 /* GameScene.sks */; };
+		5808B66A2C707C0600A3EB66 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6342C707C0300A3EB66 /* GameScene.sks */; };
+		5808B66B2C707C0600A3EB66 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6342C707C0300A3EB66 /* GameScene.sks */; };
+		5808B66C2C707C0600A3EB66 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6352C707C0300A3EB66 /* GameScene.swift */; };
+		5808B66D2C707C0600A3EB66 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6352C707C0300A3EB66 /* GameScene.swift */; };
+		5808B66E2C707C0600A3EB66 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6352C707C0300A3EB66 /* GameScene.swift */; };
+		5808B66F2C707C0600A3EB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6362C707C0500A3EB66 /* Assets.xcassets */; };
+		5808B6702C707C0600A3EB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6362C707C0500A3EB66 /* Assets.xcassets */; };
+		5808B6712C707C0600A3EB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5808B6362C707C0500A3EB66 /* Assets.xcassets */; };
+		5808B6862C707EBE00A3EB66 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6852C707EBE00A3EB66 /* GameModel.swift */; };
+		5808B6872C707EBE00A3EB66 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6852C707EBE00A3EB66 /* GameModel.swift */; };
+		5808B6882C707EBE00A3EB66 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6852C707EBE00A3EB66 /* GameModel.swift */; };
+		5808B68A2C707EC600A3EB66 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6892C707EC600A3EB66 /* Card.swift */; };
+		5808B68B2C707EC600A3EB66 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6892C707EC600A3EB66 /* Card.swift */; };
+		5808B68C2C707EC600A3EB66 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6892C707EC600A3EB66 /* Card.swift */; };
+		5808B68E2C707ECF00A3EB66 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B68D2C707ECF00A3EB66 /* Player.swift */; };
+		5808B68F2C707ECF00A3EB66 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B68D2C707ECF00A3EB66 /* Player.swift */; };
+		5808B6902C707ECF00A3EB66 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B68D2C707ECF00A3EB66 /* Player.swift */; };
+		5808B6922C707EDE00A3EB66 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6912C707EDE00A3EB66 /* GameController.swift */; };
+		5808B6932C707EDE00A3EB66 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6912C707EDE00A3EB66 /* GameController.swift */; };
+		5808B6942C707EDE00A3EB66 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6912C707EDE00A3EB66 /* GameController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5808B6332C707C0300A3EB66 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		5808B6342C707C0300A3EB66 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5808B6352C707C0300A3EB66 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5808B6362C707C0500A3EB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5808B63B2C707C0500A3EB66 /* dexwarcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dexwarcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5808B63E2C707C0500A3EB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5808B6402C707C0500A3EB66 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5808B6432C707C0500A3EB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5808B6462C707C0500A3EB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5808B64C2C707C0500A3EB66 /* dexwarcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dexwarcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5808B64E2C707C0500A3EB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5808B6502C707C0600A3EB66 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5808B6532C707C0600A3EB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5808B6562C707C0600A3EB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5808B65C2C707C0600A3EB66 /* dexwarcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dexwarcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5808B65E2C707C0600A3EB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5808B6602C707C0600A3EB66 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5808B6632C707C0600A3EB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5808B6652C707C0600A3EB66 /* dexwarcards_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dexwarcards_macOS.entitlements; sourceTree = "<group>"; };
+		5808B6852C707EBE00A3EB66 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		5808B6892C707EC600A3EB66 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		5808B68D2C707ECF00A3EB66 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5808B6912C707EDE00A3EB66 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5808B6382C707C0500A3EB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5808B6492C707C0500A3EB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5808B6592C707C0600A3EB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5808B62D2C707C0300A3EB66 = {
+			isa = PBXGroup;
+			children = (
+				5808B6322C707C0300A3EB66 /* dexwarcards Shared */,
+				5808B63D2C707C0500A3EB66 /* dexwarcards iOS */,
+				5808B64D2C707C0500A3EB66 /* dexwarcards tvOS */,
+				5808B65D2C707C0600A3EB66 /* dexwarcards macOS */,
+				5808B63C2C707C0500A3EB66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5808B6322C707C0300A3EB66 /* dexwarcards Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5808B6332C707C0300A3EB66 /* Actions.sks */,
+				5808B6342C707C0300A3EB66 /* GameScene.sks */,
+				5808B6352C707C0300A3EB66 /* GameScene.swift */,
+				5808B6362C707C0500A3EB66 /* Assets.xcassets */,
+				5808B6852C707EBE00A3EB66 /* GameModel.swift */,
+				5808B6892C707EC600A3EB66 /* Card.swift */,
+				5808B68D2C707ECF00A3EB66 /* Player.swift */,
+				5808B6912C707EDE00A3EB66 /* GameController.swift */,
+			);
+			path = "dexwarcards Shared";
+			sourceTree = "<group>";
+		};
+		5808B63C2C707C0500A3EB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5808B63B2C707C0500A3EB66 /* dexwarcards.app */,
+				5808B64C2C707C0500A3EB66 /* dexwarcards.app */,
+				5808B65C2C707C0600A3EB66 /* dexwarcards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5808B63D2C707C0500A3EB66 /* dexwarcards iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5808B63E2C707C0500A3EB66 /* AppDelegate.swift */,
+				5808B6402C707C0500A3EB66 /* GameViewController.swift */,
+				5808B6422C707C0500A3EB66 /* Main.storyboard */,
+				5808B6452C707C0500A3EB66 /* LaunchScreen.storyboard */,
+			);
+			path = "dexwarcards iOS";
+			sourceTree = "<group>";
+		};
+		5808B64D2C707C0500A3EB66 /* dexwarcards tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				5808B64E2C707C0500A3EB66 /* AppDelegate.swift */,
+				5808B6502C707C0600A3EB66 /* GameViewController.swift */,
+				5808B6522C707C0600A3EB66 /* Main.storyboard */,
+				5808B6552C707C0600A3EB66 /* LaunchScreen.storyboard */,
+			);
+			path = "dexwarcards tvOS";
+			sourceTree = "<group>";
+		};
+		5808B65D2C707C0600A3EB66 /* dexwarcards macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5808B65E2C707C0600A3EB66 /* AppDelegate.swift */,
+				5808B6602C707C0600A3EB66 /* GameViewController.swift */,
+				5808B6622C707C0600A3EB66 /* Main.storyboard */,
+				5808B6652C707C0600A3EB66 /* dexwarcards_macOS.entitlements */,
+			);
+			path = "dexwarcards macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5808B63A2C707C0500A3EB66 /* dexwarcards iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5808B6742C707C0600A3EB66 /* Build configuration list for PBXNativeTarget "dexwarcards iOS" */;
+			buildPhases = (
+				5808B6372C707C0500A3EB66 /* Sources */,
+				5808B6382C707C0500A3EB66 /* Frameworks */,
+				5808B6392C707C0500A3EB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dexwarcards iOS";
+			productName = "dexwarcards iOS";
+			productReference = 5808B63B2C707C0500A3EB66 /* dexwarcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5808B64B2C707C0500A3EB66 /* dexwarcards tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5808B6772C707C0600A3EB66 /* Build configuration list for PBXNativeTarget "dexwarcards tvOS" */;
+			buildPhases = (
+				5808B6482C707C0500A3EB66 /* Sources */,
+				5808B6492C707C0500A3EB66 /* Frameworks */,
+				5808B64A2C707C0500A3EB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dexwarcards tvOS";
+			productName = "dexwarcards tvOS";
+			productReference = 5808B64C2C707C0500A3EB66 /* dexwarcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5808B65B2C707C0600A3EB66 /* dexwarcards macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5808B67A2C707C0600A3EB66 /* Build configuration list for PBXNativeTarget "dexwarcards macOS" */;
+			buildPhases = (
+				5808B6582C707C0600A3EB66 /* Sources */,
+				5808B6592C707C0600A3EB66 /* Frameworks */,
+				5808B65A2C707C0600A3EB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dexwarcards macOS";
+			productName = "dexwarcards macOS";
+			productReference = 5808B65C2C707C0600A3EB66 /* dexwarcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5808B62E2C707C0300A3EB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5808B63A2C707C0500A3EB66 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5808B64B2C707C0500A3EB66 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5808B65B2C707C0600A3EB66 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5808B6312C707C0300A3EB66 /* Build configuration list for PBXProject "dexwarcards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5808B62D2C707C0300A3EB66;
+			productRefGroup = 5808B63C2C707C0500A3EB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5808B63A2C707C0500A3EB66 /* dexwarcards iOS */,
+				5808B64B2C707C0500A3EB66 /* dexwarcards tvOS */,
+				5808B65B2C707C0600A3EB66 /* dexwarcards macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5808B6392C707C0500A3EB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5808B6692C707C0600A3EB66 /* GameScene.sks in Resources */,
+				5808B6442C707C0500A3EB66 /* Base in Resources */,
+				5808B6662C707C0600A3EB66 /* Actions.sks in Resources */,
+				5808B6472C707C0500A3EB66 /* Base in Resources */,
+				5808B66F2C707C0600A3EB66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5808B64A2C707C0500A3EB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5808B66A2C707C0600A3EB66 /* GameScene.sks in Resources */,
+				5808B6542C707C0600A3EB66 /* Base in Resources */,
+				5808B6672C707C0600A3EB66 /* Actions.sks in Resources */,
+				5808B6572C707C0600A3EB66 /* Base in Resources */,
+				5808B6702C707C0600A3EB66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5808B65A2C707C0600A3EB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5808B6642C707C0600A3EB66 /* Base in Resources */,
+				5808B66B2C707C0600A3EB66 /* GameScene.sks in Resources */,
+				5808B6712C707C0600A3EB66 /* Assets.xcassets in Resources */,
+				5808B6682C707C0600A3EB66 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5808B6372C707C0500A3EB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5808B66C2C707C0600A3EB66 /* GameScene.swift in Sources */,
+				5808B6862C707EBE00A3EB66 /* GameModel.swift in Sources */,
+				5808B68A2C707EC600A3EB66 /* Card.swift in Sources */,
+				5808B6412C707C0500A3EB66 /* GameViewController.swift in Sources */,
+				5808B68E2C707ECF00A3EB66 /* Player.swift in Sources */,
+				5808B63F2C707C0500A3EB66 /* AppDelegate.swift in Sources */,
+				5808B6922C707EDE00A3EB66 /* GameController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5808B6482C707C0500A3EB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5808B66D2C707C0600A3EB66 /* GameScene.swift in Sources */,
+				5808B6872C707EBE00A3EB66 /* GameModel.swift in Sources */,
+				5808B68B2C707EC600A3EB66 /* Card.swift in Sources */,
+				5808B6512C707C0600A3EB66 /* GameViewController.swift in Sources */,
+				5808B68F2C707ECF00A3EB66 /* Player.swift in Sources */,
+				5808B64F2C707C0500A3EB66 /* AppDelegate.swift in Sources */,
+				5808B6932C707EDE00A3EB66 /* GameController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5808B6582C707C0600A3EB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5808B66E2C707C0600A3EB66 /* GameScene.swift in Sources */,
+				5808B6882C707EBE00A3EB66 /* GameModel.swift in Sources */,
+				5808B68C2C707EC600A3EB66 /* Card.swift in Sources */,
+				5808B6612C707C0600A3EB66 /* GameViewController.swift in Sources */,
+				5808B6902C707ECF00A3EB66 /* Player.swift in Sources */,
+				5808B65F2C707C0600A3EB66 /* AppDelegate.swift in Sources */,
+				5808B6942C707EDE00A3EB66 /* GameController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5808B6422C707C0500A3EB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5808B6432C707C0500A3EB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5808B6452C707C0500A3EB66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5808B6462C707C0500A3EB66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5808B6522C707C0600A3EB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5808B6532C707C0600A3EB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5808B6552C707C0600A3EB66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5808B6562C707C0600A3EB66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5808B6622C707C0600A3EB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5808B6632C707C0600A3EB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5808B6722C707C0600A3EB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5808B6732C707C0600A3EB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5808B6752C707C0600A3EB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dex War Cards";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamelify.dexwarcards;
+				PRODUCT_NAME = dexwarcards;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5808B6762C707C0600A3EB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dex War Cards";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamelify.dexwarcards;
+				PRODUCT_NAME = dexwarcards;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5808B6782C707C0600A3EB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dex War Cards";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamelify.dexwarcards;
+				PRODUCT_NAME = dexwarcards;
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Debug;
+		};
+		5808B6792C707C0600A3EB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dex War Cards";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamelify.dexwarcards;
+				PRODUCT_NAME = dexwarcards;
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5808B67B2C707C0600A3EB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dexwarcards macOS/dexwarcards_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dex War Cards";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamelify.dexwarcards;
+				PRODUCT_NAME = dexwarcards;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5808B67C2C707C0600A3EB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dexwarcards macOS/dexwarcards_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dex War Cards";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamelify.dexwarcards;
+				PRODUCT_NAME = dexwarcards;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5808B6312C707C0300A3EB66 /* Build configuration list for PBXProject "dexwarcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5808B6722C707C0600A3EB66 /* Debug */,
+				5808B6732C707C0600A3EB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5808B6742C707C0600A3EB66 /* Build configuration list for PBXNativeTarget "dexwarcards iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5808B6752C707C0600A3EB66 /* Debug */,
+				5808B6762C707C0600A3EB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5808B6772C707C0600A3EB66 /* Build configuration list for PBXNativeTarget "dexwarcards tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5808B6782C707C0600A3EB66 /* Debug */,
+				5808B6792C707C0600A3EB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5808B67A2C707C0600A3EB66 /* Build configuration list for PBXNativeTarget "dexwarcards macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5808B67B2C707C0600A3EB66 /* Debug */,
+				5808B67C2C707C0600A3EB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5808B62E2C707C0300A3EB66 /* Project object */;
+}
