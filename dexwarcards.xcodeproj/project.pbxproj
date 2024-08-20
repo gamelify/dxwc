@@ -42,6 +42,9 @@
 		5808B6922C707EDE00A3EB66 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6912C707EDE00A3EB66 /* GameController.swift */; };
 		5808B6932C707EDE00A3EB66 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6912C707EDE00A3EB66 /* GameController.swift */; };
 		5808B6942C707EDE00A3EB66 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5808B6912C707EDE00A3EB66 /* GameController.swift */; };
+		58250E172C736684004C2D84 /* CardAttributes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58250E162C736684004C2D84 /* CardAttributes.plist */; };
+		58250E182C736684004C2D84 /* CardAttributes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58250E162C736684004C2D84 /* CardAttributes.plist */; };
+		58250E192C736684004C2D84 /* CardAttributes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58250E162C736684004C2D84 /* CardAttributes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,7 @@
 		5808B6892C707EC600A3EB66 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		5808B68D2C707ECF00A3EB66 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		5808B6912C707EDE00A3EB66 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		58250E162C736684004C2D84 /* CardAttributes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CardAttributes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				5808B6342C707C0300A3EB66 /* GameScene.sks */,
 				5808B6352C707C0300A3EB66 /* GameScene.swift */,
 				5808B6362C707C0500A3EB66 /* Assets.xcassets */,
+				58250E162C736684004C2D84 /* CardAttributes.plist */,
 				5808B6852C707EBE00A3EB66 /* GameModel.swift */,
 				5808B6892C707EC600A3EB66 /* Card.swift */,
 				5808B68D2C707ECF00A3EB66 /* Player.swift */,
@@ -267,6 +272,7 @@
 				5808B6692C707C0600A3EB66 /* GameScene.sks in Resources */,
 				5808B6442C707C0500A3EB66 /* Base in Resources */,
 				5808B6662C707C0600A3EB66 /* Actions.sks in Resources */,
+				58250E172C736684004C2D84 /* CardAttributes.plist in Resources */,
 				5808B6472C707C0500A3EB66 /* Base in Resources */,
 				5808B66F2C707C0600A3EB66 /* Assets.xcassets in Resources */,
 			);
@@ -279,6 +285,7 @@
 				5808B66A2C707C0600A3EB66 /* GameScene.sks in Resources */,
 				5808B6542C707C0600A3EB66 /* Base in Resources */,
 				5808B6672C707C0600A3EB66 /* Actions.sks in Resources */,
+				58250E182C736684004C2D84 /* CardAttributes.plist in Resources */,
 				5808B6572C707C0600A3EB66 /* Base in Resources */,
 				5808B6702C707C0600A3EB66 /* Assets.xcassets in Resources */,
 			);
@@ -290,6 +297,7 @@
 			files = (
 				5808B6642C707C0600A3EB66 /* Base in Resources */,
 				5808B66B2C707C0600A3EB66 /* GameScene.sks in Resources */,
+				58250E192C736684004C2D84 /* CardAttributes.plist in Resources */,
 				5808B6712C707C0600A3EB66 /* Assets.xcassets in Resources */,
 				5808B6682C707C0600A3EB66 /* Actions.sks in Resources */,
 			);

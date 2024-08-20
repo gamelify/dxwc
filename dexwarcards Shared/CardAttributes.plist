@@ -1,12 +1,994 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   CardAttributes.plist
-   dexwarcards
-
-   Created by Fatih Turker on 19.08.2024.
-   Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<array>
+    <!-- Card 1 -->
+    <dict>
+        <key>identifier</key>
+        <string>1</string>
+        <key>imageName</key>
+        <string>1.png</string>
+        <key>monsterName</key>
+        <string>Velox</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>3</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Velox, the swift guardian of the eastern winds, races across the sky to protect the realms of dawn.</string>
+    </dict>
+    <!-- Card 2 -->
+    <dict>
+        <key>identifier</key>
+        <string>2</string>
+        <key>imageName</key>
+        <string>2.png</string>
+        <key>monsterName</key>
+        <string>Argenth</string>
+        <key>strength</key>
+        <integer>9</integer>
+        <key>agility</key>
+        <integer>4</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Argenth, the silver knight, once defeated a hundred foes in a single night under the twin moons.</string>
+    </dict>
+    <!-- Card 3 -->
+    <dict>
+        <key>identifier</key>
+        <string>3</string>
+        <key>imageName</key>
+        <string>3.png</string>
+        <key>monsterName</key>
+        <string>Krylix</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>2</integer>
+        <key>story</key>
+        <string>Krylix of the shadow marsh uses stealth and cunning to outwit his rivals, vanishing into mist when threatened.</string>
+    </dict>
+        <!-- Card 4 -->
+    <dict>
+        <key>identifier</key>
+        <string>4</string>
+        <key>imageName</key>
+        <string>4.png</string>
+        <key>monsterName</key>
+        <string>Trenara</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Trenara, weaver of the mystic veils, shields her allies with barriers born from ancient chants.</string>
+    </dict>
+    <!-- Card 5 -->
+    <dict>
+        <key>identifier</key>
+        <string>5</string>
+        <key>imageName</key>
+        <string>5.png</string>
+        <key>monsterName</key>
+        <string>Zaphor</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>3</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Zaphor, the thunderous roar, commands the storms atop the highest peaks, summoning bolts that cleave through darkness.</string>
+    </dict>
+    <!-- Card 6 -->
+    <dict>
+        <key>identifier</key>
+        <string>6</string>
+        <key>imageName</key>
+        <string>6.png</string>
+        <key>monsterName</key>
+        <string>Velumis</string>
+        <key>strength</key>
+        <integer>4</integer>
+        <key>agility</key>
+        <integer>9</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Velumis, the swift specter, haunts the forgotten ruins, outpacing shadows in the moonlight.</string>
+    </dict>
+    <!-- Card 7 -->
+    <dict>
+        <key>identifier</key>
+        <string>7</string>
+        <key>imageName</key>
+        <string>7.png</string>
+        <key>monsterName</key>
+        <string>Graxen</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>4</integer>
+        <key>defense</key>
+        <integer>8</integer>
+        <key>story</key>
+        <string>Graxen, the ironhide beast, patrols the land's edge, its roar quelling the stirring tides of war.</string>
+    </dict>
+    <!-- Card 8 -->
+    <dict>
+        <key>identifier</key>
+        <string>8</string>
+        <key>imageName</key>
+        <string>8.png</string>
+        <key>monsterName</key>
+        <string>Morlix</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>9</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Morlix, keeper of ancient secrets, binds the truth in chains, lost within the labyrinth of whispers.</string>
+    </dict>
+    <!-- Card 9 -->
+    <dict>
+        <key>identifier</key>
+        <string>9</string>
+        <key>imageName</key>
+        <string>9.png</string>
+        <key>monsterName</key>
+        <string>Quintor</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Quintor, the blaze wanderer, trails fire through the desolate sands, crafting glass pathways in his wake.</string>
+    </dict>
+    <!-- Card 10 -->
+    <dict>
+        <key>identifier</key>
+        <string>10</string>
+        <key>imageName</key>
+        <string>10.png</string>
+        <key>monsterName</key>
+        <string>Lexora</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Lexora, the frost enchantress, whispers winter's breath over the lands she guards, frosting over encroaching threats.</string>
+    </dict>
+    <!-- Card 11 -->
+    <dict>
+        <key>identifier</key>
+        <string>11</string>
+        <key>imageName</key>
+        <string>11.png</string>
+        <key>monsterName</key>
+        <string>Vorlan</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Vorlan, the stone sentinel, stands guard over the ancient ruins, unmoved by the ravages of time and war.</string>
+    </dict>
+    <!-- Card 12 -->
+    <dict>
+        <key>identifier</key>
+        <string>12</string>
+        <key>imageName</key>
+        <string>12.png</string>
+        <key>monsterName</key>
+        <string>Sylith</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>9</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Sylith, the nimble strider, races across the treetops, her laughter echoing as a breeze through the leaves.</string>
+    </dict>
+    <!-- Card 13 -->
+    <dict>
+        <key>identifier</key>
+        <string>13</string>
+        <key>imageName</key>
+        <string>13.png</string>
+        <key>monsterName</key>
+        <string>Threx</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Threx, the earth mauler, shakes the ground with his mighty fists, causing foes to stumble and fall before him.</string>
+    </dict>
+    <!-- Card 14 -->
+    <dict>
+        <key>identifier</key>
+        <string>14</string>
+        <key>imageName</key>
+        <string>14.png</string>
+        <key>monsterName</key>
+        <string>Glynx</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Glynx, the cunning shadow, vanishes into thin air, her presence known only by the chill of her passing.</string>
+    </dict>
+    <!-- Card 15 -->
+    <dict>
+        <key>identifier</key>
+        <string>15</string>
+        <key>imageName</key>
+        <string>15.png</string>
+        <key>monsterName</key>
+        <string>Mirak</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Mirak, the spectral guardian, wards the ancient crypts with an iron will and an ethereal flame that burns all foes.</string>
+    </dict>
+    <!-- Card 16 -->
+    <dict>
+        <key>identifier</key>
+        <string>16</string>
+        <key>imageName</key>
+        <string>16.png</string>
+        <key>monsterName</key>
+        <string>Hexis</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Hexis, the dusk reaver, prowls the twilight realms, her eyes gleaming with the promise of the hunt.</string>
+    </dict>
+    <!-- Card 17 -->
+    <dict>
+        <key>identifier</key>
+        <string>17</string>
+        <key>imageName</key>
+        <string>17.png</string>
+        <key>monsterName</key>
+        <string>Vorex</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Vorex, the wind slicer, cuts through the air with blades sharper than the coldest winter wind.</string>
+    </dict>
+    <!-- Card 18 -->
+    <dict>
+        <key>identifier</key>
+        <string>18</string>
+        <key>imageName</key>
+        <string>18.png</string>
+        <key>monsterName</key>
+        <string>Thornix</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Thornix, the bramble mage, entangles foes in vines as ancient and inexorable as the forest's deep secrets.</string>
+    </dict>
+    <!-- Card 19 -->
+    <dict>
+        <key>identifier</key>
+        <string>19</string>
+        <key>imageName</key>
+        <string>19.png</string>
+        <key>monsterName</key>
+        <string>Orinox</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>4</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Orinox, the mountain behemoth, thunders across rugged terrains, shaking the earth with each formidable step.</string>
+    </dict>
+    <!-- Card 20 -->
+    <dict>
+        <key>identifier</key>
+        <string>20</string>
+        <key>imageName</key>
+        <string>20.png</string>
+        <key>monsterName</key>
+        <string>Felith</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>9</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Felith, the swift huntress of the night, prowls the shadows, her silent paws never heard by her prey.</string>
+    </dict>
+    <!-- Card 21 -->
+    <dict>
+        <key>identifier</key>
+        <string>21</string>
+        <key>imageName</key>
+        <string>21.png</string>
+        <key>monsterName</key>
+        <string>Zythor</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Zythor, the arcane manipulator, bends magical energies to his will, crafting illusions that confuse and control.</string>
+    </dict>
+    <!-- Card 22 -->
+    <dict>
+        <key>identifier</key>
+        <string>22</string>
+        <key>imageName</key>
+        <string>22.png</string>
+        <key>monsterName</key>
+        <string>Dravax</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Dravax, keeper of the forbidden scroll, guards knowledge that could topple kingdoms and raise empires from dust.</string>
+    </dict>
+    <!-- Card 23 -->
+    <dict>
+        <key>identifier</key>
+        <string>23</string>
+        <key>imageName</key>
+        <string>23.png</string>
+        <key>monsterName</key>
+        <string>Glythrex</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Glythrex, the elder sage of the crystal depths, speaks in riddles, his wisdom veiled in the mists of time.</string>
+    </dict>
+    <!-- Card 24 -->
+    <dict>
+        <key>identifier</key>
+        <string>24</string>
+        <key>imageName</key>
+        <string>24.png</string>
+        <key>monsterName</key>
+        <string>Rhinox</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>4</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Rhinox, the horned brute, charges with the fury of a tempest, his roars echoing like thunder across the hills.</string>
+    </dict>
+    <!-- Card 25 -->
+    <dict>
+        <key>identifier</key>
+        <string>25</string>
+        <key>imageName</key>
+        <string>25.png</string>
+        <key>monsterName</key>
+        <string>Phynor</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Phynor, the winged serpent, glides silently through the night sky, unseen and unheard until it strikes.</string>
+    </dict>
+    <!-- Card 26 -->
+    <dict>
+        <key>identifier</key>
+        <string>26</string>
+        <key>imageName</key>
+        <string>26.png</string>
+        <key>monsterName</key>
+        <string>Quilex</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Quilex, the shadow whisperer, manipulates the darkness, crafting it into forms and figures to deceive and terrify.</string>
+    </dict>
+    <!-- Card 27 -->
+    <dict>
+        <key>identifier</key>
+        <string>27</string>
+        <key>imageName</key>
+        <string>27.png</string>
+        <key>monsterName</key>
+        <string>Vyron</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Vyron, the rock armored, stands as a sentinel over the ancient lands, his gaze piercing through stone and soil.</string>
+    </dict>
+    <!-- Card 28 -->
+    <dict>
+        <key>identifier</key>
+        <string>28</string>
+        <key>imageName</key>
+        <string>28.png</string>
+        <key>monsterName</key>
+        <string>Thyron</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>4</integer>
+        <key>defense</key>
+        <integer>8</integer>
+        <key>story</key>
+        <string>Thyron, the guardian of the forge, masters the flames that never die, forging weapons imbued with ancient power.</string>
+    </dict>
+    <!-- Card 29 -->
+    <dict>
+        <key>identifier</key>
+        <string>29</string>
+        <key>imageName</key>
+        <string>29.png</string>
+        <key>monsterName</key>
+        <string>Brynox</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Brynox, the sentinel of the icy realm, guards the frost-covered secrets hidden beneath the eternal snow.</string>
+    </dict>
+    <!-- Card 30 -->
+    <dict>
+        <key>identifier</key>
+        <string>30</string>
+        <key>imageName</key>
+        <string>30.png</string>
+        <key>monsterName</key>
+        <string>Krix</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Krix, the swift blade of the dawn, slices through darkness, her speed a blur even to the waking light.</string>
+    </dict>
+    <!-- Card 31 -->
+    <dict>
+        <key>identifier</key>
+        <string>31</string>
+        <key>imageName</key>
+        <string>31.png</string>
+        <key>monsterName</key>
+        <string>Orilex</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Orilex, the tempest's fury, commands the gales and gusts, turning the winds into a weapon against all who trespass.</string>
+    </dict>
+    <!-- Card 32 -->
+    <dict>
+        <key>identifier</key>
+        <string>32</string>
+        <key>imageName</key>
+        <string>32.png</string>
+        <key>monsterName</key>
+        <string>Vyrax</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Vyrax, the mystic seer, sees beyond the veils of reality, his visions revealing paths twisted by fate.</string>
+    </dict>
+    <!-- Card 33 -->
+    <dict>
+        <key>identifier</key>
+        <string>33</string>
+        <key>imageName</key>
+        <string>33.png</string>
+        <key>monsterName</key>
+        <string>Grindel</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>4</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>8</integer>
+        <key>story</key>
+        <string>Grindel, the earth's embrace, holds fast against the storms, his roots deep within the bedrock of ancient lands.</string>
+    </dict>
+    <!-- Card 34 -->
+    <dict>
+        <key>identifier</key>
+        <string>34</string>
+        <key>imageName</key>
+        <string>34.png</string>
+        <key>monsterName</key>
+        <string>Tyronex</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Tyronex, guardian of the forgotten depths, watches over the sunken treasures and lost cities of the ancient world.</string>
+    </dict>
+    <!-- Card 35 -->
+    <dict>
+        <key>identifier</key>
+        <string>35</string>
+        <key>imageName</key>
+        <string>35.png</string>
+        <key>monsterName</key>
+        <string>Mireth</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Mireth, the echo of silence, moves through the world unseen and unheard, her presence only a whisper on the wind.</string>
+    </dict>
+    <!-- Card 36 -->
+    <dict>
+        <key>identifier</key>
+        <string>36</string>
+        <key>imageName</key>
+        <string>36.png</string>
+        <key>monsterName</key>
+        <string>Phyron</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Phyron, the flame walker, treads through fire and brimstone, his path lit by the eternal fires of the deep forge.</string>
+    </dict>
+    <!-- Card 37 -->
+    <dict>
+        <key>identifier</key>
+        <string>37</string>
+        <key>imageName</key>
+        <string>37.png</string>
+        <key>monsterName</key>
+        <string>Xanthor</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Xanthor, weaver of dreams, spins tales that entangle the mind and ensnare the senses, leading many astray.</string>
+    </dict>
+    <!-- Card 38 -->
+    <dict>
+        <key>identifier</key>
+        <string>38</string>
+        <key>imageName</key>
+        <string>38.png</string>
+        <key>monsterName</key>
+        <string>Glithor</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Glithor, the silent sentinel, guards the ancient woodland realms, his vigilance as enduring as the age-old oaks.</string>
+    </dict>
+    <!-- Card 39 -->
+    <dict>
+        <key>identifier</key>
+        <string>39</string>
+        <key>imageName</key>
+        <string>39.png</string>
+        <key>monsterName</key>
+        <string>Zynor</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Zynor, the storm herald, calls forth the raging tempests, his command over the winds shaping the battles to come.</string>
+    </dict>
+    <!-- Card 40 -->
+    <dict>
+        <key>identifier</key>
+        <string>40</string>
+        <key>imageName</key>
+        <string>40.png</string>
+        <key>monsterName</key>
+        <string>Kyvor</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Kyvor, the shadow's edge, slices through the darkness with his blade, each strike a whisper of finality.</string>
+    </dict>
+    <!-- Card 41 -->
+    <dict>
+        <key>identifier</key>
+        <string>41</string>
+        <key>imageName</key>
+        <string>41.png</string>
+        <key>monsterName</key>
+        <string>Myrix</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Myrix, the night's mantle, envelops his foes in darkness, his stealth leaving only whispers of fear.</string>
+    </dict>
+    <!-- Card 42 -->
+    <dict>
+        <key>identifier</key>
+        <string>42</string>
+        <key>imageName</key>
+        <string>42.png</string>
+        <key>monsterName</key>
+        <string>Vylox</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Vylox, the swift wind, races across the battlefields, his speed a blur that confounds his enemies.</string>
+    </dict>
+    <!-- Card 43 -->
+    <dict>
+        <key>identifier</key>
+        <string>43</string>
+        <key>imageName</key>
+        <string>43.png</string>
+        <key>monsterName</key>
+        <string>Threxil</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Threxil, the arcane binder, wields ancient runes to bind and control the very elements, bending earth and sky to his will.</string>
+    </dict>
+    <!-- Card 44 -->
+    <dict>
+        <key>identifier</key>
+        <string>44</string>
+        <key>imageName</key>
+        <string>44.png</string>
+        <key>monsterName</key>
+        <string>Fyren</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Fyren, the blaze heart, channels the fiery core of the world, his presence igniting the air around him.</string>
+    </dict>
+    <!-- Card 45 -->
+    <dict>
+        <key>identifier</key>
+        <string>45</string>
+        <key>imageName</key>
+        <string>45.png</string>
+        <key>monsterName</key>
+        <string>Lythron</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Lythron, the swift storm, commands the rain and wind, his howl a harbinger of the tempest's wrath.</string>
+    </dict>
+    <!-- Card 46 -->
+    <dict>
+        <key>identifier</key>
+        <string>46</string>
+        <key>imageName</key>
+        <string>46.png</string>
+        <key>monsterName</key>
+        <string>Qrix</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Qrix, the mind scribe, etches thoughts into reality, weaving intentions into tangible outcomes.</string>
+    </dict>
+    <!-- Card 47 -->
+    <dict>
+        <key>identifier</key>
+        <string>47</string>
+        <key>imageName</key>
+        <string>47.png</string>
+        <key>monsterName</key>
+        <string>Xynth</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>4</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Xynth, the depth caller, summons creatures from the ocean's abyss, commanding the tides and the life within.</string>
+    </dict>
+    <!-- Card 48 -->
+    <dict>
+        <key>identifier</key>
+        <string>48</string>
+        <key>imageName</key>
+        <string>48.png</string>
+        <key>monsterName</key>
+        <string>Grivax</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Grivax, the stone herald, crafts monuments from the living rock, his creations lasting as legacies of the forgotten ages.</string>
+    </dict>
+    <!-- Card 49 -->
+    <dict>
+        <key>identifier</key>
+        <string>49</string>
+        <key>imageName</key>
+        <string>49.png</string>
+        <key>monsterName</key>
+        <string>Vorix</string>
+        <key>strength</key>
+        <integer>6</integer>
+        <key>agility</key>
+        <integer>7</integer>
+        <key>intelligence</key>
+        <integer>8</integer>
+        <key>defense</key>
+        <integer>4</integer>
+        <key>story</key>
+        <string>Vorix, the whisper of the void, manipulates the energies of nothingness, weaving absence into a weapon.</string>
+    </dict>
+    <!-- Card 50 -->
+    <dict>
+        <key>identifier</key>
+        <string>50</string>
+        <key>imageName</key>
+        <string>50.png</string>
+        <key>monsterName</key>
+        <string>Mythrix</string>
+        <key>strength</key>
+        <integer>8</integer>
+        <key>agility</key>
+        <integer>5</integer>
+        <key>intelligence</key>
+        <integer>6</integer>
+        <key>defense</key>
+        <integer>6</integer>
+        <key>story</key>
+        <string>Mythrix, the echo of legends, calls upon the tales of old, his voice a summoning of ancient heroes and their deeds.</string>
+    </dict>
+    <!-- Card 51 -->
+    <dict>
+        <key>identifier</key>
+        <string>51</string>
+        <key>imageName</key>
+        <string>51.png</string>
+        <key>monsterName</key>
+        <string>Lyron</string>
+        <key>strength</key>
+        <integer>7</integer>
+        <key>agility</key>
+        <integer>6</integer>
+        <key>intelligence</key>
+        <integer>5</integer>
+        <key>defense</key>
+        <integer>7</integer>
+        <key>story</key>
+        <string>Lyron, guardian of the celestial gates, holds the keys to the realms beyond, his vigilance eternal and unwavering.</string>
+    </dict>
+    <!-- Card 52 -->
+    <dict>
+        <key>identifier</key>
+        <string>52</string>
+        <key>imageName</key>
+        <string>52.png</string>
+        <key>monsterName</key>
+        <string>Zyphor</string>
+        <key>strength</key>
+        <integer>5</integer>
+        <key>agility</key>
+        <integer>8</integer>
+        <key>intelligence</key>
+        <integer>7</integer>
+        <key>defense</key>
+        <integer>5</integer>
+        <key>story</key>
+        <string>Zyphor, the master of breezes, crafts currents of air with a flick of his wrist, directing the flow of battle and the whispers of fate.</string>
+    </dict>
+</array>
 </plist>
