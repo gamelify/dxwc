@@ -45,6 +45,9 @@
 		58250E172C736684004C2D84 /* CardAttributes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58250E162C736684004C2D84 /* CardAttributes.plist */; };
 		58250E182C736684004C2D84 /* CardAttributes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58250E162C736684004C2D84 /* CardAttributes.plist */; };
 		58250E192C736684004C2D84 /* CardAttributes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58250E162C736684004C2D84 /* CardAttributes.plist */; };
+		58B579682C7CAB1800F53367 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B579672C7CAB1800F53367 /* Extensions.swift */; };
+		58B579692C7CAB1800F53367 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B579672C7CAB1800F53367 /* Extensions.swift */; };
+		58B5796A2C7CAB1800F53367 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B579672C7CAB1800F53367 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,7 @@
 		5808B68D2C707ECF00A3EB66 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		5808B6912C707EDE00A3EB66 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		58250E162C736684004C2D84 /* CardAttributes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CardAttributes.plist; sourceTree = "<group>"; };
+		58B579672C7CAB1800F53367 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 				5808B6892C707EC600A3EB66 /* Card.swift */,
 				5808B68D2C707ECF00A3EB66 /* Player.swift */,
 				5808B6912C707EDE00A3EB66 /* GameController.swift */,
+				58B579672C7CAB1800F53367 /* Extensions.swift */,
 			);
 			path = "dexwarcards Shared";
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				5808B66C2C707C0600A3EB66 /* GameScene.swift in Sources */,
 				5808B6862C707EBE00A3EB66 /* GameModel.swift in Sources */,
 				5808B68A2C707EC600A3EB66 /* Card.swift in Sources */,
+				58B579682C7CAB1800F53367 /* Extensions.swift in Sources */,
 				5808B6412C707C0500A3EB66 /* GameViewController.swift in Sources */,
 				5808B68E2C707ECF00A3EB66 /* Player.swift in Sources */,
 				5808B63F2C707C0500A3EB66 /* AppDelegate.swift in Sources */,
@@ -327,6 +333,7 @@
 				5808B66D2C707C0600A3EB66 /* GameScene.swift in Sources */,
 				5808B6872C707EBE00A3EB66 /* GameModel.swift in Sources */,
 				5808B68B2C707EC600A3EB66 /* Card.swift in Sources */,
+				58B579692C7CAB1800F53367 /* Extensions.swift in Sources */,
 				5808B6512C707C0600A3EB66 /* GameViewController.swift in Sources */,
 				5808B68F2C707ECF00A3EB66 /* Player.swift in Sources */,
 				5808B64F2C707C0500A3EB66 /* AppDelegate.swift in Sources */,
@@ -341,6 +348,7 @@
 				5808B66E2C707C0600A3EB66 /* GameScene.swift in Sources */,
 				5808B6882C707EBE00A3EB66 /* GameModel.swift in Sources */,
 				5808B68C2C707EC600A3EB66 /* Card.swift in Sources */,
+				58B5796A2C7CAB1800F53367 /* Extensions.swift in Sources */,
 				5808B6612C707C0600A3EB66 /* GameViewController.swift in Sources */,
 				5808B6902C707ECF00A3EB66 /* Player.swift in Sources */,
 				5808B65F2C707C0600A3EB66 /* AppDelegate.swift in Sources */,

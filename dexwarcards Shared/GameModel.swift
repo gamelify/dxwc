@@ -1,94 +1,64 @@
 import Foundation
 
 class GameModel {
-    // MARK: Properties
-    var deck: [Card]
-    var playerHand: [Card]
-    var computerHand: [Card]
-    var currentPlayer: PlayerType
+    var deck: [Card] = []
+    var player: Player
+    var computer: Player
+    var currentPlayer: PlayerType = .player
     var mathModel: MathModel
-    var gameIsOver: Bool
-    
-    // MARK: Enums
+    var gameIsOver: Bool = false
+
     enum PlayerType {
-        case player
-        case computer
+        case player, computer
     }
-    
-    // MARK: Initializer
+
     init() {
-        self.deck = []
-        self.playerHand = []
-        self.computerHand = []
-        self.currentPlayer = .player
+        self.player = Player(identifier: "Human")
+        self.computer = Player(identifier: "Computer")
         self.mathModel = MathModel(exponentForStrength: 2.0, multiplierForAgility: 3, bonusForIntelligence: 5, penaltyForDefense: 2)
-        self.gameIsOver = false
-        
-        initializeDeck()
+        loadDeck()
+        shuffleDeck()
         dealInitialHands()
     }
-    
-    // MARK: Game Setup
-    private func initializeDeck() {
-        // Placeholder for creating cards with unique identifiers and attributes
-        // Normally, you would have a function to generate these based on your asset files or data
-        for id in 1...52 {
-            let card = Card(identifier: "Card\(id)", imageName: "CardImage\(id)", strength: Int.random(in: 1...10), agility: Int.random(in: 1...10), intelligence: Int.random(in: 1...10), defense: Int.random(in: 1...10))
-            deck.append(card)
+
+    private func loadDeck() {
+        // Ensure your path and plist structure correctly matches your project setup
+        if let path = Bundle.main.path(forResource: "CardAttributes", ofType: "plist"),
+           let array = NSArray(contentsOfFile: path) as? [[String: Any]] {
+            for dict in array {
+                if let identifier = dict["identifier"] as? String,
+                   let monsterName = dict["monsterName"] as? String,
+                   let strength = dict["strength"] as? Int,
+                   let agility = dict["agility"] as? Int,
+                   let intelligence = dict["intelligence"] as? Int,
+                   let defense = dict["defense"] as? Int {
+                    let card = Card(identifier: identifier, monsterName: monsterName, strength: strength, agility: agility, intelligence: intelligence, defense: defense)
+                    deck.append(card)
+                }
+            }
         }
+    }
+
+    func shuffleDeck() {
         deck.shuffle()
     }
-    
-    private func dealInitialHands() {
-        for _ in 1...5 {
-            playerHand.append(deck.removeFirst())
-            computerHand.append(deck.removeFirst())
-        }
-    }
-    
-    // MARK: Gameplay Mechanics
-    func playCard(from player: PlayerType, card: Card) -> Bool {
-        guard let cardIndex = (player == .player ? playerHand.firstIndex(of: card) : computerHand.firstIndex(of: card)) else { return false }
-        
-        let opponentCard = drawComputerCard() // Simulates computer drawing a card
-        resolveRound(playerCard: card, computerCard: opponentCard)
-        checkGameOver()
-        
-        return true
-    }
-    
-    private func drawComputerCard() -> Card {
-        let cardIndex = Int.random(in: 0..<computerHand.count)
-        return computerHand.remove(at: cardIndex)
-    }
-    
-    private func resolveRound(playerCard: Card, computerCard: Card) {
-        let playerPower = playerCard.calculatePower(with: mathModel)
-        let computerPower = computerCard.calculatePower(with: mathModel)
-        
-        if playerPower > computerPower {
-            playerHand += [playerCard, computerCard]
-            currentPlayer = .player
-        } else {
-            computerHand += [playerCard, computerCard]
-            currentPlayer = .computer
-        }
-    }
-    
-    private func checkGameOver() {
-        if playerHand.isEmpty || computerHand.isEmpty {
-            gameIsOver = true
-        }
-    }
-}
 
-extension GameModel {
+    func dealInitialHands() {
+        for _ in 0..<5 {
+            if !deck.isEmpty {
+                player.hand.append(deck.removeFirst())
+                computer.hand.append(deck.removeFirst())
+            }
+        }
+    }
+
     func resetGame() {
-        deck += playerHand + computerHand
-        playerHand.removeAll()
-        computerHand.removeAll()
-        gameIsOver = false
-        initializeDeck()
+        deck += player.hand + computer.hand
+        player.hand.removeAll()
+        computer.hand.removeAll()
+        shuffleDeck()
         dealInitialHands()
+        gameIsOver = false
+        currentPlayer = .player
     }
 }

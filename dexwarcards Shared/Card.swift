@@ -3,20 +3,25 @@ import Foundation
 struct Card: Equatable {
     // MARK: Properties
     let identifier: String   // Unique identifier for each card
-    let imageName: String    // Asset name for the card image
+    let monsterName: String  // Name of the monster on the card
     let strength: Int        // Raw power of the card
     let agility: Int         // Speed or reflex attribute
     let intelligence: Int    // Strategic thinking or magic power
     let defense: Int         // Resistance or endurance
     
     // MARK: Initializer
-    init(identifier: String, imageName: String, strength: Int, agility: Int, intelligence: Int, defense: Int) {
+    init(identifier: String, monsterName: String, strength: Int, agility: Int, intelligence: Int, defense: Int) {
         self.identifier = identifier
-        self.imageName = imageName
+        self.monsterName = monsterName
         self.strength = strength
         self.agility = agility
         self.intelligence = intelligence
         self.defense = defense
+    }
+    
+    // MARK: Computed Property for imageName
+    var imageName: String {
+        return "\(identifier)"
     }
     
     // MARK: Equatable Conformance
@@ -43,6 +48,6 @@ struct MathModel {
 
 extension Card: CustomStringConvertible {
     var description: String {
-        return "Card(\(identifier)): \(imageName) with Strength \(strength), Agility \(agility), Intelligence \(intelligence), Defense \(defense)"
+        return "\(monsterName) (\(identifier)): Strength \(strength), Agility \(agility), Intelligence \(intelligence), Defense \(defense)"
     }
 }
