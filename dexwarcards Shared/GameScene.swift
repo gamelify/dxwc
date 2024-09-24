@@ -2,6 +2,8 @@ import SpriteKit
 
 class GameScene: SKScene {
     fileprivate var gameController: GameController!
+    fileprivate var selectedCardNode: SKSpriteNode?
+    private var cardDetailsLabel: SKLabelNode!
 
     // MARK: - Scene Initialization
     class func newGameScene() -> GameScene {
@@ -13,51 +15,74 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         super.didMove(to: view)
         gameController = GameController()
+        setupUI()
         displayCards()
     }
 
-    // MARK: - Display Cards
+    func setupUI() {
+        cardDetailsLabel = SKLabelNode(fontNamed: "Chalkduster")
+        cardDetailsLabel.fontSize = 20
+        cardDetailsLabel.fontColor = .white
+        cardDetailsLabel.position = CGPoint(x: self.frame.midX, y: self.frame.minY + 30) // Positioned at the bottom of the screen
+        cardDetailsLabel.text = "Select a card to see details"
+        addChild(cardDetailsLabel)
+    }
+
     func displayCards() {
         removeAllChildren() // Clear the scene first
+        addChild(cardDetailsLabel) // Add the details label back after clearing the scene
         let baseX = 100
-        let cardSpacing = 120 // Space between cards
+        let cardSpacing = 120
         for (index, card) in gameController.model.player.hand.enumerated() {
             let cardNode = SKSpriteNode(imageNamed: card.imageName)
-            cardNode.name = "\(index)"
-            cardNode.position = CGPoint(x: baseX + index * cardSpacing, y: 150) // Adjust position calculation as needed
-            cardNode.setScale(0.5) // Scale down the card image
+            cardNode.name = "card\(index)"
+            cardNode.position = CGPoint(x: baseX + index * cardSpacing, y: 150)
+            cardNode.setScale(0.5)
             addChild(cardNode)
         }
     }
 
     // MARK: - Interaction Handling
-    func handleCardSelection(at position: CGPoint) {
-        let nodes = self.nodes(at: position)
-        for node in nodes {
-            if let name = node.name, name.starts(with: "card"), let index = Int(name.dropFirst(4)), let card = gameController.model.player.hand[safe: index] {
-                if let opponentCard = gameController.model.computer.hand.first {
-                    gameController.resolveTurn(cardPlayed: card, opponentCard: opponentCard)
-                    updateScene()
-                }
-                break
-            }
-        }
-    }
-
-    func updateScene() {
-        displayCards() // Re-display cards with updated hand
-    }
-
-    // Platform-specific interaction handling
     #if os(iOS) || os(tvOS)
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
-        handleCardSelection(at: touch.location(in: self))
+        let position = touch.location(in: self)
+        selectCard(at: position)
     }
-
     #elseif os(OSX)
     override func mouseDown(with event: NSEvent) {
-        handleCardSelection(at: event.location(in: self))
+        let position = event.location(in: self)
+        selectCard(at: position)
     }
     #endif
+
+    func selectCard(at position: CGPoint) {
+        let nodes = self.nodes(at: position)
+        for node in nodes where node.name?.starts(with: "card") == true {
+            if let cardNode = node as? SKSpriteNode, selectedCardNode != cardNode {
+                // Animate the previously selected node back to its original size
+                selectedCardNode?.run(SKAction.scale(to: 0.5, duration: 0.2))
+                
+                // Update the new selected node and animate
+                selectedCardNode = cardNode
+                selectedCardNode?.run(SKAction.scale(to: 0.65, duration: 0.2))
+                
+                // Update the card details label
+                if let indexStr = node.name?.dropFirst(4), let index = Int(indexStr) {
+                    let card = gameController.model.player.hand[index]
+                    cardDetailsLabel.text = "\(card.monsterName): Str \(card.strength), Agi \(card.agility), Int \(card.intelligence), Def \(card.defense)"
+                }
+            }
+        }
+    }
 }
+
+
+// Ensure the safe subscript extension is only declared once in your project
+extension Array {
+    subscript(safely index: Int) -> Element? {
+        guard indices.contains(index) else { return nil }
+        return self[index]
+    }
+}
+
